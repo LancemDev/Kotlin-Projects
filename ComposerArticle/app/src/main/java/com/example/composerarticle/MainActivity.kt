@@ -85,7 +85,7 @@ fun articleText(title: String, subtitle: String, content: String, modifier: Modi
             text = content,
             modifier = Modifier
                 .padding(8.dp)
-                .border(BorderStroke(2.dp, Color.Black))
+                .border(BorderStroke(0.dp, Color.Black))
         )
     }
 }
